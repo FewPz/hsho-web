@@ -16,6 +16,7 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
 COPY . .
 
 RUN pnpm build
+RUN ls -la /app
 
 FROM node:22-alpine
 
