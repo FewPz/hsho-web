@@ -24,7 +24,7 @@ RUN apk add --no-cache tzdata
 ENV TZ=Asia/Bangkok
 ENV NODE_ENV=production
 
-CMD ["ls", "-l"]
+CMD ["ls", "-la", "/app"]
 
 WORKDIR /app
 COPY --from=builder /app/build ./build
