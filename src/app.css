@@ -1,3 +1,11 @@
-@import 'tailwindcss';
-@plugin '@tailwindcss/forms';
-@plugin '@tailwindcss/typography';
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Anuphan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
