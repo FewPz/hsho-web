@@ -1,4 +1,4 @@
 #!/bin/bash
 git pull
-docker-compose stop fewpz-web
-docker-compose up -d --build fewpz-web
+docker-compose stop hsho-web
+docker-compose up -d --build hsho-web
