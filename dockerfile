@@ -1,4 +1,3 @@
-
 FROM node:22-alpine AS builder
 
 ENV PNPM_HOME="/pnpm"
@@ -12,7 +11,7 @@ WORKDIR /app
 COPY package.json pnpm-lock.yaml ./
 
 # Install ALL dependencies (including devDependencies)
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile --prod=false 
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile --prod=false
 
 COPY . .
 
