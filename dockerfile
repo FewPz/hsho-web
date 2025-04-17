@@ -24,6 +24,7 @@ RUN apk add --no-cache tzdata
 ENV TZ=Asia/Bangkok
 ENV NODE_ENV=production
 
+WORKDIR /app
 COPY --from=builder /app/build ./build
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json
