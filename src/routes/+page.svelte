@@ -4,24 +4,18 @@
 	import Footer from '$lib/components/Footer.svelte'; // Optional: Add footer
 	import Header from '$lib/components/Header.svelte';
 	import Hero from '$lib/components/Hero.svelte';
+	import PatchLanding from '$lib/components/PatchLanding.svelte';
 </script>
 
 <svelte:head>
-	<title>Your Awesome Game - Official Site</title>
-	<meta
-		name="description"
-		content="Welcome to Your Awesome Game! Learn how to play, check the FAQ, and join the battle."
-	/>
-	<!-- Add other meta tags like Open Graph for social sharing -->
+	<title>Home Sweet Home: Online - Private Server</title>
+	<meta name="description" content="Join the Home Sweet Home: Online private server. Download the launcher, get updates, and play now!" />
 </svelte:head>
-
 <Header/>
-
 <main>
 	<Hero />
+	<PatchLanding />
 	<Tutorial />
 	<FAQ />
 </main>
-
 <Footer />
-<!-- Optional: Add footer -->

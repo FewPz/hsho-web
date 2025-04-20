@@ -37,7 +37,7 @@ importers:
         specifier: ^0.5.9
         version: 0.5.10(tailwindcss@4.1.4)
       '@tailwindcss/typography':
-        specifier: ^0.5.15
+        specifier: ^0.5.16
         version: 0.5.16(tailwindcss@4.1.4)
       '@tailwindcss/vite':
         specifier: ^4.0.0
