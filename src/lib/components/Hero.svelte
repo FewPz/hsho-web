@@ -24,7 +24,7 @@
 			aria-label="HSH Private Server"
 		/>
 		<p class="text-dark-subtle mx-auto mb-8 max-w-xl text-lg md:text-xl">
-			Dive into an epic adventure, conquer challenges, and become the ultimate champion!
+			Between life and death, the real nightmare begins.
 		</p>
 		<div id="play" class="space-y-4 sm:space-y-0 sm:space-x-4">
 			<a
