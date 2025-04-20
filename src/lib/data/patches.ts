@@ -82,6 +82,16 @@ const sourceData = {
 	],
 	SubNews: [
 		{
+			header: 'Server is now open',
+			title: 'PATCH 1.7.0.2',
+			date: '2025-04-10T19:18:13.5215958+07:00',
+			imageURL: 'https://i.ibb.co/DHqb3vKC/nowopen-1.png',
+			content: 'Dear Niwarner,\r\n\r\nThe server is opened. The following updates and fixes have been applied.\r\n\r\nWarden:\r\nRatri\r\nMannequin was reduced to 3 instead of 7\r\nMovement Speed was reduced to 0 instead of 3\r\nBlink Stamina Drain was increased by 10 Units\r\nStrangle Cooldown was increased by 10 seconds now 35 instead of 25\r\n\r\nSilent Man\r\nDemon\'s Grasp radius was reduced to 700 instead of 1600\r\nMovement Speed was reduced to 0 instead of 2\r\nApparition Cooldown was increased by 10 seconds now 35 instead of 25\r\n\r\nSurvivors:\r\nNipa\r\nSixth Sense the amount of time Nipa can see the Warden was increased by 1 second now 4 instead of 3.\r\n\r\nTim\r\nNona-Metal Knife Stun duration was increased by 1 second now 2 instead of 1.\r\n\r\nMewmew\r\nCheer Up receive self-healing for 10 units per second now instead of 7.\r\n\r\nJessi\r\nLet`s Party Speaker warden now gets a 75 unit speed reducation instead of 50.',
+			showTitle: true,
+			showContent: true,
+			showDate: false
+		},
+		{
 			title: 'IMPORTANT BALANCE ADJUSTMENT',
 			date: '2025-04-16T05:43:15.6178854+07:00',
 			imageURL: 'https://i.ibb.co/1GpdqqFM/imp-balance-adjustment.png',
