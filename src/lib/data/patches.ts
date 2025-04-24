@@ -82,6 +82,16 @@ const sourceData = {
 	],
 	SubNews: [
 		{
+			header: '',
+			title: '',
+			date: '2025-04-20T23:53:13.5215958+07:00',
+			imagesURL: 'hthttps://i.ibb.co/WpGtD892/Screenshot-2025-04-20-184447.png',
+			content: 'The Niwarn Never Dies Team would like to inform all players about a special upcoming event that&rsquo;s bound to bring back memories.\r\nWe&#39;re working on an &quot;OG&quot; Event that throws it back to the feel of the Open Beta Test 1 (OBT1) version of the game. While it won&rsquo;t be an exact replica, we&#39;re doing our best to recreate the experience as closely as possible, implementing everything we can to capture that classic vibe.\r\n\r\nHere&rsquo;s what we can confirm for now:\r\n&bull; All Relics will be disabled\r\n&bull; All Curses will be disabled, except for the Corpse Hair Curse of Kamiko, which will serve as a substitute for Specter Mode\r\n&bull; All characters that were not present in OBT1 will be kill switched\r\n\r\nWe&rsquo;ll be releasing more details soon, including the final list of features and the official start date, through all our announcement channels.\r\n\r\nAre you ready to survive in Mericless Niwarn or make it be your slashing ground?',
+			showTitle: true,
+			showContent: true,
+			showDate: false
+		},
+		{
 			header: 'Server is now open',
 			title: 'PATCH 1.7.0.2',
 			date: '2025-04-10T19:18:13.5215958+07:00',
